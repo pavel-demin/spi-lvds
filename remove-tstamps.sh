@@ -1,1 +1,4 @@
-sed -i 's/ (tstamp[^)]*)// ; /^[[:space:]]*$/d' spi-lvds.kicad_pcb
+for file in *.kicad_pcb
+do
+  sed -i 's/ (tstamp[^)]*)// ; /^[[:space:]]*$/d' $file
+done
