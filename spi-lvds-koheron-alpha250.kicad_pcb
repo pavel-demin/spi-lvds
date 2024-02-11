@@ -240,7 +240,7 @@
   (footprint "footprints:M25" (layer "F.Cu")
     (at 130 105)
     (property "mpn" "hole")
-    (clearance 0.5)
+    (clearance 1)
     (attr through_hole)
     (fp_text reference "M1" (at 0 0) (layer "F.SilkS") hide
         (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -248,7 +248,7 @@
     (fp_text value "" (at 0 0) (layer "F.SilkS") hide
         (effects (font (size 1.27 1.27) (thickness 0.15)))
     )
-    (pad "1" thru_hole circle (at 0 0) (size 6 6) (drill 3) (layers "*.Cu" "*.Mask"))
+    (pad "" np_thru_hole circle (at 0 0) (size 2.7 2.7) (drill 2.7) (layers "*.Cu" "*.Mask"))
   )
   (footprint "footprints:TSSOP16" (layer "F.Cu")
     (at 95.5 88.5)
@@ -380,7 +380,7 @@
   (footprint "footprints:M25" (layer "F.Cu")
     (at 130 65)
     (property "mpn" "hole")
-    (clearance 0.5)
+    (clearance 1)
     (attr through_hole)
     (fp_text reference "M2" (at 0 0) (layer "F.SilkS") hide
         (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -388,7 +388,7 @@
     (fp_text value "" (at 0 0) (layer "F.SilkS") hide
         (effects (font (size 1.27 1.27) (thickness 0.15)))
     )
-    (pad "1" thru_hole circle (at 0 0) (size 6 6) (drill 3) (layers "*.Cu" "*.Mask"))
+    (pad "" np_thru_hole circle (at 0 0) (size 2.7 2.7) (drill 2.7) (layers "*.Cu" "*.Mask"))
   )
   (footprint "footprints:47272" (layer "F.Cu")
     (at 126.5 89.75 90)
